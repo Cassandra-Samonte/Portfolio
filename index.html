@@ -13,40 +13,48 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Press+Start+2P&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cassandra Samonte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div id="fullpage">
 
         <div class="section s1">
             <h1 class='auto-type'></h1>
-                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#">About</a>
-                                <a class="nav-link" href="#">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav> -->
+
         </div>
 
         <div class="section s2">
-            <h2>The Second Section</h2>
+
+            <h2>Hi, I'm Cassandra.</h2>
+            <p>At 27, I decided to shake things up a bit and dive into the tech world, swapping house tours for coding courses. It's been quite the change, but I'm loving every bit of it.
+            In this coding journey, I'm not just learning to speak "computer", but also discovering how to create cool stuff from scratch. When I'm not immersed in code, you can find me enjoying a hike on a cool breezy day or on a run along the beach.
+            As I forge this new path in the tech industry, I am eager to blend the interpersonal skills nurtured in my real estate career with the technical skills I am currently honing. A blend of resilience, dedication, and a zest for learning drives me to contribute meaningfully in the tech space. Looking forward to connecting and creating innovative solutions together!</p>
+            <a href="path/to/your/file.pdf" class="pdf-button" target="_blank">Resume PDF</a>
+        
         </div>
 
         <div class="section s3">
-            <div class="container">
-                <h3 class="my-4">Related Projects</h3>
+
+            <div class="container projects">
+                <h3 class="my-4">PROJECTS</h3>
 
                 <div class="row">
                     <div class="col-md-3 col-sm-6 mb-4">
@@ -71,13 +79,31 @@
                     <a href="#">
                         <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="" />
                     </a>
+
                 </div>
             </div>
         </div>
-
-      
-     
     </div>
+
+    <footer>
+        <div class="section footer">
+            <div class="skills-container">
+              <!-- Skills logos -->
+              <img src="images/logos/htmllogo.png" alt="HTML Logo" style="width: 120px; height: 150px;">
+              <img src="images/logos/csslogo.png" alt="CSS Logo" style="width: 120px; height: 150px;">
+              <img src="images/logos/javascript-logo.png" alt="JavaScript Logo" style="width: 120px; height: 150px;">
+            </div>
+            <div class="links-container">
+              <!-- Social links -->
+              <a href="https://github.com/cassamonte" target="_blank">
+                <img src="images/logos/github-logo.png" alt="GitHub Logo" style="width: 80px; height: 80px;">
+              </a>
+              <a href="https://www.linkedin.com/in/cassandra-samonte" target="_blank">
+                <img src="images/logos/linkedin-logo.png" alt="LinkedIn Logo" style="width: 80px; height: 80px;">
+              </a>
+            </div>
+          </div>    
+    </footer>
     
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -91,7 +117,7 @@
             navigation: true,
             scrollingSpeed: 1000
          });
-    </script>
+    </script> 
 
     <script>
         let typed = new Typed('.auto-type', {
@@ -102,7 +128,6 @@
             loop: true
         })
     </script>
-
-    <script src="app.js" ></script>
+    <script src="app.js"></script>
 </body>
 </html>

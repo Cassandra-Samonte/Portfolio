@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1 {
@@ -10,13 +11,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 120px;
     text-align: center;
 }
 
 .auto-type {
     color: #a4c422;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .section {
@@ -26,8 +28,56 @@ h2 {
     height: 100vh;
 }
 
-.container {
+.container.projects {
     max-width: 100%
 }
 
+.s2 {
+    text-align: center;
+    padding: 300px;
+}
 
+p {
+    font-size: 20px;
+}
+
+.pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 50px; 
+    text-decoration: none; 
+    transition: background-color 0.3s;
+  }
+
+  .pdf-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 100px;
+  }
+  
+  .skills-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .links-container {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
