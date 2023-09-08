@@ -150,11 +150,34 @@ p {
     justify-content: center;
     gap: 10px;
 }
+
+@media (max-width: 1920px) { 
+    .s1 {
+        background-size: contain;
+        background-position: 50% 20%;        
+    }
+
+    .s2 {
+        padding: 150px; 
+    }
+
+    h1 {
+        margin-left: 0; 
+        text-align: center; 
+        width: 100%;
+        font-size: 80px;
+    }
+}
+
   
 @media (max-width: 1280px) { 
     .s1 {
         background-size: contain;
         background-position: 50% 20%;        
+    }
+
+    .s2 {
+        padding: 150px; 
     }
 
     h1 {
@@ -164,7 +187,7 @@ p {
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .s1 {
         background-size: contain;
         background-position: 50% 10%;        
@@ -184,10 +207,9 @@ p {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .s1 {
-        background-size: contain;
-        background-position: 50% 15%;        
+        background: white;      
     }
 
     h1 {
@@ -207,10 +229,9 @@ p {
     }
 }
 
-@media (min-width: 680px) {
+@media (max-width: 680px) {
     .s1 {
-        background-size: contain;
-        background-position: 50% 50%;        
+        background: white;     
     }
 
     h1 {
@@ -230,18 +251,17 @@ p {
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .s1 {
-        background-size: contain;
-        background-position: 50% 15%;        
+        background: white;     
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .s2 {
@@ -253,7 +273,7 @@ p {
     }
 
     .logo {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
     }
 }
