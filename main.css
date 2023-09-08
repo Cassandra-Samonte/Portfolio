@@ -19,7 +19,7 @@
 
 h1 {
     font-family: 'Press Start 2P', cursive;   
-    margin-left: 665px;
+    font-size: 60px;
 }
 
 h2 {
@@ -35,6 +35,7 @@ h2 {
 .auto-type {
     color: #a4c422;
     font-size: 40px; 
+    text-align: center;
 }
 
 .s1 {
@@ -45,7 +46,7 @@ h2 {
 
 .s2 {
     text-align: center;
-    padding: 250px;
+    padding: 300px;
 }
 
 p {
@@ -158,12 +159,10 @@ p {
     }
 
     .s2 {
-        padding: 150px; 
+        padding: 300px; 
     }
 
     h1 {
-        margin-left: 0; 
-        text-align: center; 
         width: 100%;
         font-size: 80px;
     }
@@ -177,12 +176,10 @@ p {
     }
 
     .s2 {
-        padding: 150px; 
+        padding: 250px; 
     }
 
     h1 {
-        margin-left: 0; 
-        text-align: center; 
         width: 100%;
     }
 }
@@ -221,7 +218,7 @@ p {
     }
 
     .s2 {
-        padding: 50px;
+        padding: 100px;
     }
 
     p {
@@ -236,6 +233,7 @@ p {
 
     h1 {
         font-size: 40px;
+        width: 100%;
     }
   
     h2 {
@@ -243,7 +241,7 @@ p {
     }
 
     .s2 {
-        padding: 50px;
+        padding: 100px;
     }
 
     p {
