@@ -17,14 +17,9 @@
     color: white;
 }
 
-h1 {
-    font-family: 'Press Start 2P', cursive;   
-    margin-left: 665px;
-}
-
 h2 {
     font-family: 'Gochi Hand', cursive;
-    font-size: 120px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -33,25 +28,20 @@ h2 {
 }
 
 .auto-type {
+    font-family: 'Press Start 2P', cursive;   
     color: #a4c422;
-    font-size: 40px; 
-}
-
-.s1 {
-    background: url('images/computer.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    font-size: 50px; 
+    text-align: center;
 }
 
 .s2 {
     text-align: center;
-    padding: 250px;
+    padding: 200px;
 }
 
 p {
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
-    overflow: hidden; 
     line-height: 1.5; 
     word-wrap: break-word;
 }
@@ -150,28 +140,58 @@ p {
     justify-content: center;
     gap: 10px;
 }
-  
-@media (max-width: 1280px) { 
-    .s1 {
-        background-size: contain;
-        background-position: 50% 20%;        
-    }
 
-    h1 {
-        margin-left: 0; 
-        text-align: center; 
-        width: 100%;
-    }
-}
-
-@media (min-width: 1024px) {
-    .s1 {
-        background-size: contain;
-        background-position: 50% 10%;        
+@media (min-width: 1800px) { 
+    .auto-type {
+        font-size: 80px;
     }
 
     h2 {
+        font-size: 140px;
+    }
+
+    .s2 {
+        padding: 200px; 
+    }
+
+    p {
+        font-size: 30px; 
+    }
+    .pdf-button {
+        font-size: 30px;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+    }
+
+    .contact-button {
+        font-size: 30px;
+    }
+}
+  
+@media (max-width: 1280px) { 
+
+    h2 {
         font-size: 80px;
+    }
+
+    .s2 {
+        padding: 100px; 
+    }
+
+    p {
+        font-size: 22px; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .auto-type {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 50px;
     }
 
     .s2 {
@@ -183,77 +203,53 @@ p {
     }
 }
 
-
-@media (min-width: 768px) {
-    .s1 {
-        background-size: contain;
-        background-position: 50% 15%;        
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    .s2 {
-        padding: 50px;
-    }
-
-    p {
-        font-size: 20px; 
-    }
-}
-
-@media (min-width: 680px) {
-    .s1 {
-        background-size: contain;
-        background-position: 50% 50%;        
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-  
-    h2 {
-        font-size: 40px;
-    }
-
-    .s2 {
-        padding: 50px;
-    }
-
-    p {
-        font-size: 20px; 
-    }
-}
-
-@media (min-width: 320px) {
-    .s1 {
-        background-size: contain;
-        background-position: 50% 15%;        
-    }
-
-    h1 {
-        font-size: 25px;
-    }
-
-    h2 {
+@media (max-width: 768px) {
+    .auto-type {
         font-size: 30px;
     }
 
+    h2 {
+        font-size: 40px;
+    }
+
     .s2 {
-        padding: 10px;
+        padding: 80px;
     }
 
     p {
-        font-size: 18px; 
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 680px) {
+
+    h2 {
+        font-size: 40px;
     }
 
-    .logo {
-        width: 50px;
-        height: 50px;
+    .s2 {
+        padding: 70px;
+    }
+
+    p {
+        font-size: 15px; 
+    }
+}
+
+@media (max-width: 320px) {
+    .auto-type {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .s2 {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 15px; 
     }
 }
