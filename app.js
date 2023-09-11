@@ -46,3 +46,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     closePopup();
 });
   
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
