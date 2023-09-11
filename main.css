@@ -17,14 +17,9 @@
     color: white;
 }
 
-h1 {
-    font-family: 'Press Start 2P', cursive;   
-    font-size: 60px;
-}
-
 h2 {
     font-family: 'Gochi Hand', cursive;
-    font-size: 120px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -33,26 +28,20 @@ h2 {
 }
 
 .auto-type {
+    font-family: 'Press Start 2P', cursive;   
     color: #a4c422;
-    font-size: 40px; 
+    font-size: 50px; 
     text-align: center;
-}
-
-.s1 {
-    background: url('images/computer.png');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .s2 {
     text-align: center;
-    padding: 300px;
+    padding: 200px;
 }
 
 p {
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
-    overflow: hidden; 
     line-height: 1.5; 
     word-wrap: break-word;
 }
@@ -152,46 +141,57 @@ p {
     gap: 10px;
 }
 
-@media (max-width: 1920px) { 
-    .s1 {
-        background-size: contain;
-        background-position: 50% 20%;        
-    }
-
-    .s2 {
-        padding: 300px; 
-    }
-
-    h1 {
-        width: 100%;
+@media (min-width: 1800px) { 
+    .auto-type {
         font-size: 80px;
     }
-}
 
-  
-@media (max-width: 1280px) { 
-    .s1 {
-        background-size: contain;
-        background-position: 50% 20%;        
+    h2 {
+        font-size: 140px;
     }
 
     .s2 {
-        padding: 250px; 
+        padding: 200px; 
     }
 
-    h1 {
-        width: 100%;
+    p {
+        font-size: 30px; 
+    }
+    .pdf-button {
+        font-size: 30px;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+    }
+
+    .contact-button {
+        font-size: 30px;
+    }
+}
+  
+@media (max-width: 1280px) { 
+
+    h2 {
+        font-size: 80px;
+    }
+
+    .s2 {
+        padding: 100px; 
+    }
+
+    p {
+        font-size: 22px; 
     }
 }
 
 @media (max-width: 1024px) {
-    .s1 {
-        background-size: contain;
-        background-position: 50% 10%;        
+    .auto-type {
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .s2 {
@@ -203,14 +203,9 @@ p {
     }
 }
 
-
 @media (max-width: 768px) {
-    .s1 {
-        background: white;      
-    }
-
-    h1 {
-        font-size: 40px;
+    .auto-type {
+        font-size: 30px;
     }
 
     h2 {
@@ -218,44 +213,32 @@ p {
     }
 
     .s2 {
-        padding: 100px;
+        padding: 80px;
     }
 
     p {
-        font-size: 20px; 
+        font-size: 16px; 
     }
 }
 
 @media (max-width: 680px) {
-    .s1 {
-        background: white;     
-    }
 
-    h1 {
-        font-size: 40px;
-        width: 100%;
-    }
-  
     h2 {
         font-size: 40px;
     }
 
     .s2 {
-        padding: 100px;
+        padding: 70px;
     }
 
     p {
-        font-size: 20px; 
+        font-size: 15px; 
     }
 }
 
 @media (max-width: 320px) {
-    .s1 {
-        background: white;     
-    }
-
-    h1 {
-        font-size: 15px;
+    .auto-type {
+        font-size: 20px;
     }
 
     h2 {
@@ -263,15 +246,10 @@ p {
     }
 
     .s2 {
-        padding: 10px;
+        padding: 15px;
     }
 
     p {
-        font-size: 18px; 
-    }
-
-    .logo {
-        width: 20px;
-        height: 20px;
+        font-size: 15px; 
     }
 }
